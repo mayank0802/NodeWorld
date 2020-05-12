@@ -1,0 +1,32 @@
+{
+  "name": "NodeWorld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karan07krs/NodeWorld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karan07krs/NodeWorld/issues"
+  },
+  "homepage": "https://github.com/karan07krs/NodeWorld#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
