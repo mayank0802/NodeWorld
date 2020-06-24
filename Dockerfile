@@ -6,7 +6,7 @@ FROM ppdeassis/node-nginx-alpine:latest
 WORKDIR /app
 COPY . .
 
-RUN npm install
+#RUN npm install
 
 CMD ["node", "app.js"]
 EXPOSE 80
