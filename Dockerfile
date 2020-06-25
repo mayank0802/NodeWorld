@@ -10,16 +10,11 @@
 #   - builds the frontend app (Vue, React, Webpack, ...)
 
 # Use an official node image
-FROM node
+FROM node:latest
 
 WORKDIR /app
 
-# Install dependencies
-COPY . .
-RUN rm -rf node_modules
-RUN yarn install
-RUN yarn cache clean
-
+# Install depen
 
 
 # ---
