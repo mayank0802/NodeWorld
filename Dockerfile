@@ -5,9 +5,9 @@ FROM ppdeassis/node-nginx-alpine:latest
 # lets install dependencies
 WORKDIR /app
 COPY . .
+RUN rm -rf node_modules
+RUN npm install
 
 #RUN npm install
 EXPOSE 80
-
-CMD ["node", "app.js"]
-
+CMD ["npm", "start"]
