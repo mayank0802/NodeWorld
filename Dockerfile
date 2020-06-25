@@ -27,7 +27,7 @@ WORKDIR /app
 FROM nginx:1.13-alpine
 
 # COPY dist from builder container to nginx html dir
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder /dist /usr/share/nginx/html
 
 COPY config/nginx.default.conf /etc/nginx/conf.d/default.conf
 
