@@ -10,7 +10,7 @@
 #   - builds the frontend app (Vue, React, Webpack, ...)
 
 # Use an official node image
-FROM node:latest
+FROM node:latest AS builder
 
 WORKDIR /app
 
