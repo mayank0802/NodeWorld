@@ -10,15 +10,7 @@
 #   - builds the frontend app (Vue, React, Webpack, ...)
 
 # Use an official node image
-FROM node:9-alpine AS builder
-
-# Reads args and use them to configure the build, setting
-# them as env vars
-ARG NODE_ENV
-ARG API_URL
-
-ENV NODE_ENV $NODE_ENV
-ENV API_URL $API_URL
+FROM node
 
 WORKDIR /app
 
