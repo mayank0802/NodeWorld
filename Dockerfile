@@ -20,7 +20,6 @@ RUN rm -rf node_modules
 RUN yarn install
 RUN yarn cache clean
 
-RUN yarn run build
 
 
 # ---
