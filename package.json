@@ -7,8 +7,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/karan07krs/NodeWorld.git"
